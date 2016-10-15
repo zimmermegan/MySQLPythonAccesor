@@ -5,10 +5,10 @@ A small python script for accessing your SQL databases without having to log in 
 Using the mysql.connector library this code takes in  a name of a database and a string of a query as command line arguments and then prints out the results of the query on that database if a database is not given then it prints out the databases available, if a database is given and a query is not given, it prints out the tables in that database. 
 
 # Running instructions:
-  -Download python connector for mysql here https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html
-  -Replace credentials in connection command on line 50
-  -have MySQL server running
-  -use the following run command with desired database name and query
+  -Download python connector for mysql here https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html <br>
+  -Replace credentials in connection command on line 50<br>
+  -have MySQL server running<br>
+  -use the following run command with desired database name and query<br>
 
 # Command
   python accessDb.py \<databaseName> "\<query>"
